@@ -42,3 +42,5 @@ Processo:  Sempre que realizar uma alteração no BD
 - Força o python a tipar os dados.
 - Objetivo: sitema mais velocidade e integridade de todas as trocas de informações/requisições
 
+
+# Aula 5 - Pedidos e Login

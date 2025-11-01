@@ -38,7 +38,7 @@ class Pedido(Base):
     #)
 
     id  = Column("id", Integer, primary_key=True, autoincrement=True)
-    Status = Column("status", String(50)) #ChoiceType(STATUS_PEDIDOS))
+    status = Column("status", String) #ChoiceType(STATUS_PEDIDOS))
     usuario = Column("usuario", ForeignKey("usuarios.id"))
     preco = Column("preco", Float)
     #itens  = Column()

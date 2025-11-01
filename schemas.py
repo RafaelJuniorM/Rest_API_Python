@@ -11,3 +11,10 @@ class UsuarioSchema(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class PedidoSchema(BaseModel): # oque o usuario precisa passar para que ele possa criar um pedido
+    usuario: int
+
+    class Config:
+        from_attributes = True

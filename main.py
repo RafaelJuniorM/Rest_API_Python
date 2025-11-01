@@ -14,8 +14,8 @@ bycrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto") # Configur
 
 # importando as rotas
 from auth_routes import auth_router
-from order_routes import order_router
+from pedido_routes import pedido_router
 
 # incluindo as rotas na aplicação principal
 app.include_router(auth_router)
-app.include_router(order_router)
+app.include_router(pedido_router)
