@@ -9,6 +9,13 @@ class UsuarioSchema(BaseModel):
     ativo: Optional[bool]
     admin: Optional[bool]  
 
+    class Config: # converte para o formalo de class
+        from_attributes = True
+
+class LoginSchema(BaseModel):
+    email: str
+    senha: str
+
     class Config:
         from_attributes = True
 
